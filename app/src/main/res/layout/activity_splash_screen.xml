@@ -4,6 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F3000000"
     tools:context=".SplashScreen">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="403dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="348dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/sourukiralogo3" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Inverse"
+        android:layout_width="207dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="256dp"
+        android:background="#00FFFFFF"
+        android:indeterminateTint="#FFFFFFFF"
+        android:indeterminateTintMode="src_in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="406dp"
+        android:layout_height="236dp"
+
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        app:srcCompat="@drawable/loadingscreen" />
 </androidx.constraintlayout.widget.ConstraintLayout>
