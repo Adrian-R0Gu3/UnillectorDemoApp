@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "442252203301",
+    "firebase_url": "https://unillectorgame-default-rtdb.firebaseio.com",
+    "project_id": "unillectorgame",
+    "storage_bucket": "unillectorgame.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442252203301:android:0ec709d9292318466fb6cc",
+        "android_client_info": {
+          "package_name": "com.example.unillectordemoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442252203301-t60ivf4j1gkq42b2s9ds80hnnt2jqvlj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8pXZ4A6g5Df8qG7ifEDF77KEULUTvdxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442252203301-t60ivf4j1gkq42b2s9ds80hnnt2jqvlj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
